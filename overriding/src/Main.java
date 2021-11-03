@@ -10,6 +10,13 @@ public class Main {
         Football football = new Football();
 
         // Call your members here
+        football.getName();
+        football.getNumberOfTeamMembers();
+
+        FiveASide fiveASide = new FiveASide();
+        fiveASide.getName();
+        fiveASide.getNumberOfTeamMembers();
 
     }
+
 }
